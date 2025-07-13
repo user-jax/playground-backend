@@ -61,4 +61,7 @@ node_modules/
 *.tgz
 
 ### Yarn Integrity file ###
-.yarn-integrity 
+.yarn-integrity
+
+### Application Properties ###
+src/main/resources/application.properties 
