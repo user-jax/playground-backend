@@ -1,67 +1,21 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignore Maven target directory
+/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Ignore IDE files
+.idea/
 *.iml
 *.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# Ignore VSCode settings
 .vscode/
 
-### macOS ###
+# Ignore OS files
 .DS_Store
 
-### Logs ###
+# Ignore logs
 *.log
 logs/
 
-### Runtime data ###
-pids
-*.pid
-*.seed
-*.pid.lock
-
-### Coverage directory used by tools like istanbul ###
-coverage/
-
-### Dependency directories ###
-node_modules/
-
-### Optional npm cache directory ###
-.npm
-
-### Optional REPL history ###
-.node_repl_history
-
-### Output of 'npm pack' ###
-*.tgz
-
-### Yarn Integrity file ###
-.yarn-integrity
-
-### Application Properties ###
+# Ignore application.properties (contains secrets)
 src/main/resources/application.properties 
